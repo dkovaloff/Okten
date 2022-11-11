@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+    height: 280px;
+    border: 1px solid #adadad;
+    margin: 150px 10px;
+    padding: 20px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.stuffing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto", Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+
+.button {
+    width: 170px;
+    height: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-size: 16px;
+    font-family: "Roboto", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #adadad;
+    border-radius: 180%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 80px;
+    background: #ffffff;
+}
+
+.fa-sharp,
+.fa-futbol,
+.fa-martini-glass-empty {
+    font-size: 25px;
+    color: #eb9014;
+}
+
