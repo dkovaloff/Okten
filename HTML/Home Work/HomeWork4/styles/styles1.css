@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 10px;
+    width: 1200px;
+    height: 800px;
+}
+
+.block_A {
+    width: 100%;
+    height: 30%;
+    background: silver;
+}
+
+.block_B_C {
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.block_B {
+    width: 80%;
+    height: 100%;
+    background: #cdd7e0;
+}
+.block_C {
+    width: 20%;
+    height: 100%;
+    background: #adadad;
+}
