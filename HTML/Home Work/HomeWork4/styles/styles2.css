@@ -16,13 +16,13 @@ body {
 
 .block_A {
     width: 100%;
-    height: 30%;
+    height: 32%;
     background: #adadad;
 }
 
 .sections {
     width: 100%;
-    height: 70%;
+    height: 68%;
     display: flex;
     column-gap: 10px;
 }
