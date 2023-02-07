@@ -1,0 +1,16 @@
+.productContainer {
+    display: flex;
+}
+
+.product-card {
+    border: 1px black solid;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-image {
+    width: 200px;
+}
